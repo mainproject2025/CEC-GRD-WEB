@@ -25,7 +25,7 @@ const Login = () => {
             Login
           </h2>
 
-          {/* 👇 Use autocomplete="off" on the form */}
+          {/* Use autocomplete="off" on the form */}
           <form
             className="space-y-6"
             onSubmit={handleSubmit}
@@ -35,7 +35,7 @@ const Login = () => {
             <input
               type="text"
               name="hidden-username"
-              autoComplete="username"
+              autoComplete="new-username"
               style={{ display: "none" }}
             />
             <input
