@@ -37,12 +37,16 @@ const Login = () => {
               name="hidden-username"
               autoComplete="new-username"
               style={{ display: "none" }}
+              disabled
+              readOnly
             />
             <input
               type="password"
               name="hidden-password"
               autoComplete="current-password"
               style={{ display: "none" }}
+              disabled
+              readOnly
             />
 
             {/* Email */}
