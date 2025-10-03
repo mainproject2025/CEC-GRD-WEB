@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import collegeImage from "../assets/college-building.png"; // update filename if different
+import collegeImage from "../assets/clg-pic.png"; // update filename if different
 
 const LandingPage = () => {
   return (
