@@ -35,7 +35,7 @@ const Login = () => {
             <input
               type="text"
               name="hidden-username"
-              autoComplete="new-username"
+              autoComplete="username"
               style={{ display: "none" }}
               disabled
               readOnly
@@ -62,7 +62,6 @@ const Login = () => {
                 name="login-email-xyz"
                 placeholder="cecgrid@ceconline.edu"
                 required
-                autoComplete="off"
                 className="w-full px-4 py-2 border border-[#423FE5] rounded-lg 
                            focus:outline-none focus:ring-2 focus:ring-[#423FE5]"
               />
