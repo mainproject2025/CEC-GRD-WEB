@@ -6,7 +6,5 @@
 @tailwind utilities;
 
 body {
-  fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-}
+  fontFamily:'Poppins', sans-serif;
 }
