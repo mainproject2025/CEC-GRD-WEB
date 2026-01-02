@@ -15,7 +15,7 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center">
       {/* Outer white card */}
-      <div className="relative w-full max-w-[1200px] h-[1080px] bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div className="relative w-full h-[1080px] bg-white rounded-2xl shadow-xl overflow-hidden">
 
         {/* Logo Section */}
         <div className="flex flex-col items-center mt-10 mb-6">
@@ -121,3 +121,4 @@ const Login = () => {
 };
 
 export default Login;
+
